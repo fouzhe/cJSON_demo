@@ -1,5 +1,6 @@
 # cJSON_demo
-##Install
+
+## Install
 
 Macos
 
@@ -25,7 +26,7 @@ make
 make DESTDIR=$pkgdir install
 ```
 
-##Usage
+## Usage
 ```
 make
 ./demo 1.json 
