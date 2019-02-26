@@ -5,7 +5,7 @@
 Macos
 
 ```
-https://github.com/DaveGamble/cJSON.git
+git clone https://github.com/DaveGamble/cJSON.git
 mkdir build
 cd build
 cmake ..
@@ -18,7 +18,7 @@ make install
 Linux
 
 ```
-https://github.com/DaveGamble/cJSON.git
+git clone https://github.com/DaveGamble/cJSON.git
 mkdir build
 cd build
 cmake .. -DENABLE_CJSON_UTILS=On -DENABLE_CJSON_TEST=Off -DCMAKE_INSTALL_PREFIX=/usr
