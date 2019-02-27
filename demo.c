@@ -90,6 +90,8 @@ int supports_full_hd(const char * const monitor)
     }
     status = 1;
 end:
+    //cJSON_Delete(start); not allowed
+    //cJSON_Delete(end);
     cJSON_Delete(monitor_json);
     return status;
 }
@@ -163,6 +165,7 @@ int main(int argc, char *argv[])
     if(json != NULL)
     {
         supports_full_hd(json);
+        free(json);
     }
     else 
     {

@@ -1,2 +1,2 @@
 all:
-	$(CC) $(CFLAGS) -o demo demo.c -lcjson 
+	$(CC) $(CFLAGS) -g -fsanitize=address -o demo demo.c -lcjson 
